@@ -1,3 +1,7 @@
+// Package yatz is an ab testing framework for golang appengine apps.
+// It enables ab testing without making any network requests so its super fast and adds negligible overhead.
+//
+// This package is split into 2 parts: the code which is called from the app and the query part which is a wrapper over big query.
 package yatz
 
 import (
